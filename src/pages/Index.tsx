@@ -216,42 +216,45 @@ const Index = () => {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
-            <div className="lg:col-span-1">
+          <div className="flex flex-wrap gap-4 sm:gap-6 justify-center">
+            <div className="flex-shrink-0">
               <img
                 src="/lovable-uploads/e06b8e32-b139-4ac9-9789-dd2d68767dca.png"
                 alt="Simone Oliveira pintando em seu ateliê"
-                className="w-full h-auto object-contain rounded-2xl shadow-elegant hover-lift-elegant touch-manipulation"
+                className="h-48 sm:h-64 w-auto object-contain rounded-2xl shadow-elegant hover-lift-elegant touch-manipulation"
               />
             </div>
-            <div className="lg:col-span-1">
+            <div className="flex-shrink-0">
               <img
                 src="/lovable-uploads/79f14aaa-ddef-4045-8d3e-50714c9dc43b.png"
                 alt="Simone Oliveira criando arte"
-                className="w-full h-auto object-contain rounded-2xl shadow-elegant hover-lift-elegant touch-manipulation"
+                className="h-48 sm:h-64 w-auto object-contain rounded-2xl shadow-elegant hover-lift-elegant touch-manipulation"
               />
             </div>
-            <div className="lg:col-span-1">
+            <div className="flex-shrink-0">
               <img
                 src="/lovable-uploads/simone-pintando.jpg"
                 alt="Simone Oliveira criando arte"
-                className="w-full h-auto object-contain rounded-2xl shadow-elegant hover-lift-elegant touch-manipulation"
+                className="h-48 sm:h-64 w-auto object-contain rounded-2xl shadow-elegant hover-lift-elegant touch-manipulation"
               />
             </div>
-            <div className="lg:col-span-1 flex flex-col justify-center space-y-4">
+            <div className="flex-shrink-0">
               <img
                 src="/lovable-uploads/03348f07-97c9-429b-a76d-774e1979a3e4.png"
                 alt="Simone Oliveira com pincéis"
-                className="w-full h-auto object-contain rounded-xl shadow-lg hover-lift-elegant touch-manipulation"
+                className="h-48 sm:h-64 w-auto object-contain rounded-xl shadow-lg hover-lift-elegant touch-manipulation"
               />
-              <div className="bg-gentle-green/20 rounded-xl p-3 sm:p-4">
-                <h3 className="font-semplicita text-lg sm:text-xl font-light text-deep-black mb-2">
-                  Processo Criativo
-                </h3>
-                <p className="font-helvetica text-xs sm:text-sm text-deep-black/80 leading-relaxed justified-text">
-                  Cada obra é resultado de um processo meditativo e intuitivo.
-                </p>
-              </div>
+            </div>
+          </div>
+          
+          <div className="mt-6 sm:mt-8 text-center">
+            <div className="bg-gentle-green/20 rounded-xl p-4 max-w-md mx-auto">
+              <h3 className="font-semplicita text-lg sm:text-xl font-light text-deep-black mb-2">
+                Processo Criativo
+              </h3>
+              <p className="font-helvetica text-xs sm:text-sm text-deep-black/80 leading-relaxed justified-text">
+                Cada obra é resultado de um processo meditativo e intuitivo.
+              </p>
             </div>
           </div>
         </div>
