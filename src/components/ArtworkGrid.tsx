@@ -21,7 +21,7 @@ const ArtworkGrid = ({ exhibitionId, featuredOnly = false }: ArtworkGridProps) =
 
   if (isLoading) {
     return (
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 sm:gap-6 lg:gap-8">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 sm:gap-6 lg:gap-8 justify-items-center">
         {[...Array(8)].map((_, i) => (
           <div key={i} className="aspect-[3/4] bg-gentle-green/10 rounded-xl animate-pulse" />
         ))}
@@ -49,7 +49,7 @@ const ArtworkGrid = ({ exhibitionId, featuredOnly = false }: ArtworkGridProps) =
 
   return (
     <>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 sm:gap-6 lg:gap-8">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 sm:gap-6 lg:gap-8 justify-items-center">
         {artworks.map((artwork, index) => (
           <div
             key={artwork.id}
