@@ -96,7 +96,7 @@ const Index = () => {
           <div className={`text-center mb-8 sm:mb-12 md:mb-16 transition-all duration-500 ${logoVisible ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-8'}`}>
             <div className="mb-3 sm:mb-4 md:mb-6">
               <img
-                src="/lovable-uploads/LOGO-SIMONE-OLIVEIRA-ART.png"
+                src="/lovable-uploads/8ffa7e68-70c5-4ea3-a772-87156df4e9f7.png"
                 alt="Simone Oliveira Art Gallery"
                 className="mx-auto h-20 sm:h-32 md:h-40 lg:h-48 w-auto object-contain"
               />
@@ -221,28 +221,28 @@ const Index = () => {
               <img
                 src="/lovable-uploads/e06b8e32-b139-4ac9-9789-dd2d68767dca.png"
                 alt="Simone Oliveira pintando em seu ateliê"
-                className="w-full h-48 sm:h-64 object-cover rounded-2xl shadow-elegant hover-lift-elegant touch-manipulation"
+                className="w-full h-48 sm:h-64 object-contain rounded-2xl shadow-elegant hover-lift-elegant touch-manipulation"
               />
             </div>
             <div className="lg:col-span-1">
               <img
                 src="/lovable-uploads/79f14aaa-ddef-4045-8d3e-50714c9dc43b.png"
                 alt="Simone Oliveira criando arte"
-                className="w-full h-48 sm:h-64 object-cover rounded-2xl shadow-elegant hover-lift-elegant touch-manipulation"
+                className="w-full h-48 sm:h-64 object-contain rounded-2xl shadow-elegant hover-lift-elegant touch-manipulation"
               />
             </div>
             <div className="lg:col-span-1">
               <img
                 src="/lovable-uploads/simone-pintando.jpg"
                 alt="Simone Oliveira criando arte"
-                className="w-full h-48 sm:h-64 object-cover rounded-2xl shadow-elegant hover-lift-elegant touch-manipulation"
+                className="w-full h-48 sm:h-64 object-contain rounded-2xl shadow-elegant hover-lift-elegant touch-manipulation"
               />
             </div>
             <div className="lg:col-span-1 flex flex-col justify-center space-y-4">
               <img
                 src="/lovable-uploads/03348f07-97c9-429b-a76d-774e1979a3e4.png"
                 alt="Simone Oliveira com pincéis"
-                className="w-full h-32 sm:h-40 object-cover rounded-xl shadow-lg hover-lift-elegant touch-manipulation"
+                className="w-full h-32 sm:h-40 object-contain rounded-xl shadow-lg hover-lift-elegant touch-manipulation"
               />
               <div className="bg-gentle-green/20 rounded-xl p-3 sm:p-4">
                 <h3 className="font-semplicita text-lg sm:text-xl font-light text-deep-black mb-2">
