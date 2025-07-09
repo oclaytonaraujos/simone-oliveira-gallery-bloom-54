@@ -221,28 +221,28 @@ const Index = () => {
               <img
                 src="/lovable-uploads/e06b8e32-b139-4ac9-9789-dd2d68767dca.png"
                 alt="Simone Oliveira pintando em seu ateliê"
-                className="w-full h-48 sm:h-64 object-contain rounded-2xl shadow-elegant hover-lift-elegant touch-manipulation"
+                className="w-full h-auto object-contain rounded-2xl shadow-elegant hover-lift-elegant touch-manipulation"
               />
             </div>
             <div className="lg:col-span-1">
               <img
                 src="/lovable-uploads/79f14aaa-ddef-4045-8d3e-50714c9dc43b.png"
                 alt="Simone Oliveira criando arte"
-                className="w-full h-48 sm:h-64 object-contain rounded-2xl shadow-elegant hover-lift-elegant touch-manipulation"
+                className="w-full h-auto object-contain rounded-2xl shadow-elegant hover-lift-elegant touch-manipulation"
               />
             </div>
             <div className="lg:col-span-1">
               <img
                 src="/lovable-uploads/simone-pintando.jpg"
                 alt="Simone Oliveira criando arte"
-                className="w-full h-48 sm:h-64 object-contain rounded-2xl shadow-elegant hover-lift-elegant touch-manipulation"
+                className="w-full h-auto object-contain rounded-2xl shadow-elegant hover-lift-elegant touch-manipulation"
               />
             </div>
             <div className="lg:col-span-1 flex flex-col justify-center space-y-4">
               <img
                 src="/lovable-uploads/03348f07-97c9-429b-a76d-774e1979a3e4.png"
                 alt="Simone Oliveira com pincéis"
-                className="w-full h-32 sm:h-40 object-contain rounded-xl shadow-lg hover-lift-elegant touch-manipulation"
+                className="w-full h-auto object-contain rounded-xl shadow-lg hover-lift-elegant touch-manipulation"
               />
               <div className="bg-gentle-green/20 rounded-xl p-3 sm:p-4">
                 <h3 className="font-semplicita text-lg sm:text-xl font-light text-deep-black mb-2">
