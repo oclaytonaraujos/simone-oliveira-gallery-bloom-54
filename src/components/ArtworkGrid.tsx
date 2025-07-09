@@ -23,7 +23,7 @@ const ArtworkGrid = ({ exhibitionId, featuredOnly = false }: ArtworkGridProps) =
     return (
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 sm:gap-6 lg:gap-8 justify-items-center">
         {[...Array(8)].map((_, i) => (
-          <div key={i} className="aspect-[3/4] bg-gentle-green/10 rounded-xl animate-pulse" />
+          <div key={i} className="w-full h-64 bg-gentle-green/10 rounded-xl animate-pulse" />
         ))}
       </div>
     );
@@ -59,11 +59,11 @@ const ArtworkGrid = ({ exhibitionId, featuredOnly = false }: ArtworkGridProps) =
             }}
             onClick={() => setSelectedArtwork(artwork)}
           >
-            <div className="relative overflow-hidden rounded-2xl shadow-elegant bg-soft-beige aspect-[3/4]">
+            <div className="relative overflow-hidden rounded-2xl shadow-elegant bg-soft-beige">
               <img
                 src={artwork.image}
                 alt={artwork.title}
-                className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+                className="w-full h-auto object-contain transition-transform duration-700 group-hover:scale-110"
                 loading="lazy"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-deep-black/80 via-deep-black/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
